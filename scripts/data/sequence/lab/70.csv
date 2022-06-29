@@ -1,0 +1,5 @@
+model,r1,r2,r3,r4,optimal
+monkeyW,2,3,3,4,100.000000
+monkeyW,3,3,4,5,52.768313
+monkeyW,4,4,4,5,58.450101
+monkeyW,3,4,4,5,63.427103
