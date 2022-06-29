@@ -1,0 +1,9 @@
+dataset/sessions/*
+!dataset/sessions/README.md
+dataset/reduces/*
+!dataset/reduces/README.md
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
