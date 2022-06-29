@@ -1,0 +1,5 @@
+model,r1,r2,r3,r4,optimal
+teapotW,0,1,2,5,100.000000
+teapotW,1,1,3,5,35.973275
+teapotW,1,1,1,1,38.092411
+teapotW,5,5,5,5,34.827763

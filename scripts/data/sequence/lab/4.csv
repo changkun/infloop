@@ -1,0 +1,6 @@
+model,r1,r2,r3,r4,optimal
+pumpkinW,0,1,2,3,100.000000
+pumpkinW,0,0,0,4,96.644086
+pumpkinW,1,2,3,4,93.111659
+pumpkinW,1,2,3,3,92.553952
+pumpkinW,1,2,3,3,89.925006
