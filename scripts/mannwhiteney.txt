@@ -1,0 +1,89 @@
+p-value annotation legend:
+      ns: p <= 1.00e+00
+       *: 1.00e-02 < p <= 5.00e-02
+      **: 1.00e-03 < p <= 1.00e-02
+     ***: 1.00e-04 < p <= 1.00e-03
+    ****: p <= 1.00e-04
+
+fair vs. good: Mann-Whitney-Wilcoxon test two-sided, P_val:1.033e-02 U_stat=3.504e+03
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+fair vs. excellent: Mann-Whitney-Wilcoxon test two-sided, P_val:2.157e-02 U_stat=8.756e+03
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+terrible vs. excellent: Mann-Whitney-Wilcoxon test two-sided, P_val:2.733e-03 U_stat=1.022e+04
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+p-value annotation legend:
+      ns: p <= 1.00e+00
+       *: 1.00e-02 < p <= 5.00e-02
+      **: 1.00e-03 < p <= 1.00e-02
+     ***: 1.00e-04 < p <= 1.00e-03
+    ****: p <= 1.00e-04
+
+good vs. excellent: Mann-Whitney-Wilcoxon test two-sided, P_val:2.046e-03 U_stat=1.310e+05
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+fair vs. excellent: Mann-Whitney-Wilcoxon test two-sided, P_val:3.265e-04 U_stat=1.572e+05
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+terrible vs. excellent: Mann-Whitney-Wilcoxon test two-sided, P_val:1.537e-02 U_stat=6.430e+04
+Warning: cannot get the text bounding box. Falling back to a fixed y offset. Layout may be not optimal.
+good excellent
+81.68490337037036
+      U-val alternative     p-val       RBC      CLES
+MWU  3602.0   two-sided  0.371513 -0.084613  0.542307
+median:  86.0348615 80.951277
+mean:  81.68490337037036 75.52231055284552
+----
+fair good
+69.78728473964497
+      U-val alternative    p-val       RBC      CLES
+MWU  3504.0   two-sided  0.01033  0.232084  0.383958
+median:  74.88242 86.0348615
+mean:  69.78728473964497 81.68490337037036
+----
+fair excellent
+69.78728473964497
+      U-val alternative     p-val      RBC      CLES
+MWU  8756.0   two-sided  0.021574  0.15755  0.421225
+median:  74.88242 80.951277
+mean:  69.78728473964497 75.52231055284552
+----
+terrible poor
+67.38422652657005
+       U-val alternative     p-val       RBC      CLES
+MWU  19705.0   two-sided  0.618929 -0.029116  0.514558
+median:  74.654421 72.925144
+mean:  67.38422652657005 66.24484416216217
+----
+terrible excellent
+67.38422652657005
+       U-val alternative     p-val       RBC      CLES
+MWU  10219.0   two-sided  0.002733  0.197282  0.401359
+median:  74.654421 80.951277
+mean:  67.38422652657005 75.52231055284552
+----
+good excellent
+61.095101309557776
+        U-val alternative     p-val       RBC      CLES
+MWU  131031.0   two-sided  0.002046  0.109904  0.445048
+median:  60.038724 66.99304000000001
+mean:  61.095101309557776 64.83566493333333
+----
+fair excellent
+60.78284667330211
+        U-val alternative     p-val       RBC      CLES
+MWU  157157.0   two-sided  0.000327  0.123692  0.438154
+median:  62.723034 66.99304000000001
+mean:  60.78284667330211 64.83566493333333
+----
+terrible poor
+60.04824463049852
+       U-val alternative     p-val       RBC     CLES
+MWU  95318.0   two-sided  0.359568  0.036121  0.48194
+median:  59.743608 64.6680935
+mean:  60.04824463049852 61.87973306034482
+----
+terrible excellent
+60.04824463049852
+       U-val alternative     p-val       RBC      CLES
+MWU  64301.0   two-sided  0.015373  0.102067  0.448967
+median:  59.743608 66.99304000000001
+mean:  60.04824463049852 64.83566493333333
+----
