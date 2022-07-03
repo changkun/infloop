@@ -24,8 +24,8 @@ type PolyredUploadInput struct {
 }
 type PolyredUploadOutput struct {
 	// The stored model ID that can be reused anytime in subsequent requests.
-	ModelId string `json:"id"`
-	Message string `json:"msg"`
+	ModelId string `json:"id,omitempty"`
+	Message string `json:"msg,omitempty"`
 }
 
 // Upload uploads an given FBX model to the polyreduce service using
@@ -63,7 +63,7 @@ func (c *Client) PolyredUpload(ctx context.Context, i *PolyredUploadInput) (*Pol
 
 	resp, err := http.DefaultClient.Do(r.WithContext(ctx))
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 	defer resp.Body.Close()
 
@@ -84,8 +84,8 @@ type PolyredConfigInput struct {
 
 type PolyredConfigOutput struct {
 	// The stored model ID that can be reused anytime in subsequent requests.
-	ModelId string `json:"id"`
-	Message string `json:"msg"`
+	ModelId string `json:"id,omitempty"`
+	Message string `json:"msg,omitempty"`
 }
 
 // PolyredConfig configs a simplification by providing the model ID and
@@ -140,8 +140,8 @@ type PolyredRunInput struct {
 
 type PolyredRunOutput struct {
 	// The stored model ID that can be reused anytime in subsequent requests.
-	ModelId string `json:"id"`
-	Message string `json:"msg"`
+	ModelId string `json:"id,omitempty"`
+	Message string `json:"msg,omitempty"`
 }
 
 // PolyredRun executes the simplification. The function blocks until the
@@ -179,11 +179,6 @@ func (c *Client) PolyredRun(ctx context.Context, i *PolyredRunInput) error {
 type DownloadInput struct {
 	ModelID string
 	Path    string
-}
-type DownloadOutput struct {
-	// The stored model ID that can be reused anytime in subsequent requests.
-	ModelId string `json:"id"`
-	Message string `json:"msg"`
 }
 
 // PolyredDownload downloads the result of a polygon reduction. The
